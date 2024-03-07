@@ -23,9 +23,7 @@ class MaxPriorityQueue {
     }
 
     print() {
-        for (let i = 0; i < this.items.length; i++) {
-            console.log(this.items[i].elemento + " " + this.items[i].prioridad);
-        }
+        console.log(this.items);
       }
 }
 
@@ -72,8 +70,6 @@ async function squirrel() {
 
     console.log("Below are the events and their correlation in descending order:");
     maxPriorityQueue.print();
-    let highestCorrelation = maxPriorityQueue.dequeue();
-    console.log("The event with the highest correlation is:", highestCorrelation.elemento, "with a correlation of:", highestCorrelation.prioridad);
 
 }
 
