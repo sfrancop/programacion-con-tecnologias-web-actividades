@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Juan",
+    "apellido": "García",
+    "telefono": "555-1234",
+    "correo": "juangarcia@example.com",
+    "contraseña": "Qwerty123"
+  },
+  {
+    "nombre": "María",
+    "apellido": "Martínez",
+    "telefono": "555-5678",
+    "correo": "mariamartinez@example.com",
+    "contraseña": "P@ssw0rd"
+  },
+  {
+    "nombre": "Luis",
+    "apellido": "Rodríguez",
+    "telefono": "555-9012",
+    "correo": "luisrodriguez@example.com",
+    "contraseña": "Secret@123"
+  }
+]
